@@ -3026,7 +3026,7 @@ footer {
 .login .main {}
 
 .btn-submit {
-    background-color: var(--theme1-bg);
+    background-color: var( --secondary-bg);
     border-color: var(--theme1-bg);
     color: var(--primary-color);
 }
